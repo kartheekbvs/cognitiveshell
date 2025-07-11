@@ -1,5 +1,6 @@
 # cognitiveshell/commands/browser_control.py
-
+!pip install playwright
+!playwright install
 from playwright.sync_api import sync_playwright, Page, Browser, BrowserContext
 import time
 import logging
